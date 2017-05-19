@@ -18,7 +18,7 @@ finishPass='' #used to determine if password while has finished
 
 ###get dependencies
 
-apt-get install dialog
+apt-get install dialog screen
 
 finish="false"
 while [ "$finish" = 'false' ]
